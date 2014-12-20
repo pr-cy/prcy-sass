@@ -1,0 +1,20 @@
+{
+  "name": "prcy-sass",
+  "version": "0.0.1",
+  "homepage": "http://pr-cy.ru/",
+  "authors": [
+    "Igor Ckei"
+  ],
+  "description": "Bootstrap sass styles for web-site PR-CY.",
+  "main": [
+    "assets/stylesheets/styles.scss"
+  ],
+  "keywords": [
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ]
+}
