@@ -1,11 +1,11 @@
 {
 	"name": "prcy-sass",
-	"version": "1.0.0",
+	"description": "Bootstrap sass styles for web-site PR-CY.",
+	"version": "1.1.0",
 	"homepage": "http://pr-cy.ru/",
 	"authors": [
 		"Igor Ckei"
 	],
-	"description": "Bootstrap sass styles for web-site PR-CY.",
 	"main": [
 		"assets/stylesheets/_main.scss",
 		"assets/stylesheets/_variables.scss"
