@@ -174,7 +174,7 @@ ul, ol {
 }
 
 .navbar-brand {
-    padding: 9px 15px;
+    padding: 14px 15px;
 }
 
 .radio label {
@@ -590,12 +590,22 @@ table thead .sort-desc {
 	box-shadow: none;
 }
 
+.dropdown-menu > li > a {
+	padding: 6px 15px;
+}
 .dropdown-bar .dropdown-menu {
 	min-width: 300px;
 }
 .dropdown-bar .pr-cy-blue {
 	color: #bcc7e2 !important;
 }
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
 .fa-xs {
 	font-size: 14px !important;
 }
