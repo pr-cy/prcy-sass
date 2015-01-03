@@ -18,10 +18,10 @@ $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 
 $brand-primary:         #435173 !default;
-$brand-success:         #43ac6a !default;
-$brand-info:            #2980b9 !default;
-$brand-warning:         #E99002 !default;
-$brand-danger:          #F04124 !default;
+$brand-success:         #8abd3c !default; /* 43ac6a */
+$brand-info:            #5C79BF !default;
+$brand-warning:         #E0B343 !default;
+$brand-danger:          #c7482b !default; /* F04124 */
 
 
 //== Scaffolding
@@ -148,7 +148,7 @@ $btn-default-border:             #ccc !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-border:             $btn-primary-bg !default;
 
 $btn-success-color:              #fff !default;
 $btn-success-bg:                 $brand-success !default;
@@ -160,11 +160,11 @@ $btn-info-border:                $brand-info !default;
 
 $btn-warning-color:              #fff !default;
 $btn-warning-bg:                 $brand-warning !default;
-$btn-warning-border:             darken($btn-warning-bg, 5%) !default;
+$btn-warning-border:             $btn-warning-bg !default;
 
 $btn-danger-color:               #fff !default;
 $btn-danger-bg:                  $brand-danger !default;
-$btn-danger-border:              darken($btn-danger-bg, 5%) !default;
+$btn-danger-border:              $btn-danger-bg !default;
 
 $btn-link-disabled-color:        $gray-light !default;
 
@@ -471,9 +471,9 @@ $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             $brand-success !default;
-$state-success-bg:               #dff0d8 !default;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-text:             #7cab33 !default;
+$state-success-bg:               #F6FAEF !default;
+$state-success-border:           #C1DF96;
 
 $state-info-text:                #31708f !default;
 $state-info-bg:                  #d9edf7 !default;
@@ -621,7 +621,7 @@ $alert-danger-border:         $state-danger-border !default;
 //##
 
 //** Background color of the whole progress component
-$progress-bg:                 #f5f5f5 !default;
+$progress-bg:                 #e7ebf5 !default;
 //** Progress bar text color
 $progress-bar-color:          #fff !default;
 
