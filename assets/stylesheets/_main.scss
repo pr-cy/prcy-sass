@@ -3,13 +3,28 @@ body {
 	background: #f2f4f7;
 }
 
+@media(max-width: $screen-xs-max){
+
+	html {
+		-moz-hyphens: auto;
+		-webkit-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+	}
+}
+
 * {
 	outline: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF !important;
 }
 
 .bg-full {
 	background: #f2f4f7;
 }
+
 .box {
 	clear: both;
 	margin-top: 0;
