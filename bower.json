@@ -1,7 +1,7 @@
 {
 	"name": "prcy-sass",
 	"description": "Bootstrap sass styles for web-site PR-CY.",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"main": [
 		"assets/stylesheets/_main.scss",
 		"assets/stylesheets/_variables.scss",
